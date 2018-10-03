@@ -1,0 +1,284 @@
+﻿1
+00:00:00,770 --> 00:00:06,200
+In this video you are going to be creating and running your very first node app while it will be a simple
+
+2
+00:00:06,200 --> 00:00:11,510
+one it's going to demonstrate the entire process from creating files to running them from the terminal.
+
+3
+00:00:11,510 --> 00:00:13,530
+The first step is going to be to create a folder.
+
+4
+00:00:13,640 --> 00:00:17,030
+Every project we create is going to live inside of its own folder.
+
+5
+00:00:17,150 --> 00:00:21,470
+I'm going to open up the finder on OSX and navigate to my desktop.
+
+6
+00:00:21,470 --> 00:00:26,510
+What I'd like you to do is open up the desktop on your OS whether you're on Linux or Windows or OSX
+
+7
+00:00:26,720 --> 00:00:32,450
+and create a brand new folder called Hello world.
+
+8
+00:00:32,830 --> 00:00:35,940
+Now I'm using capitalization on both the H and W..
+
+9
+00:00:35,940 --> 00:00:37,840
+You could also go with something like this.
+
+10
+00:00:37,840 --> 00:00:39,470
+Hello hyphen world.
+
+11
+00:00:39,910 --> 00:00:41,660
+Let's go ahead and use this option.
+
+12
+00:00:41,680 --> 00:00:43,200
+Hello hyphen world.
+
+13
+00:00:43,210 --> 00:00:50,350
+In a lower case i don't recommend using spaces in your project file or folder names as it only makes
+
+14
+00:00:50,350 --> 00:00:54,060
+it more confusing to navigate inside of the terminal.
+
+15
+00:00:54,070 --> 00:00:57,980
+Now we have this hello world folder and we can open it up inside of our editor.
+
+16
+00:00:58,760 --> 00:01:04,460
+Here I use command 0 to open up and I'm going to navigate to the desktop and a double click my hello
+
+17
+00:01:04,490 --> 00:01:08,370
+world folder on the left I have my files which are none.
+
+18
+00:01:08,480 --> 00:01:10,380
+Let's go ahead and create a new one.
+
+19
+00:01:10,610 --> 00:01:16,000
+I'm going to make a new file in the root of the project and we're going to call this one app dot J.
+
+20
+00:01:16,040 --> 00:01:21,000
+Yes this is going to be the only file we have inside of our node application.
+
+21
+00:01:21,200 --> 00:01:25,700
+And then here we can write some code that's going to get executed when we start the app in the future
+
+22
+00:01:25,700 --> 00:01:29,510
+we'll be doing crazy stuff like initializing databases and starting web servers.
+
+23
+00:01:29,510 --> 00:01:36,140
+But for now we're simply going to use cons. dialogue which means we're accessing the logged property
+
+24
+00:01:36,140 --> 00:01:37,790
+on the console object.
+
+25
+00:01:37,790 --> 00:01:38,520
+It's a function.
+
+26
+00:01:38,540 --> 00:01:40,660
+So we can call it with parentheses.
+
+27
+00:01:41,060 --> 00:01:46,410
+And we're going to pass in one argument a string Hello world.
+
+28
+00:01:46,640 --> 00:01:50,260
+I'm going to toss a semi-colon on the end and save the file.
+
+29
+00:01:50,270 --> 00:01:52,990
+This is going to be the first app we run.
+
+30
+00:01:53,330 --> 00:01:59,120
+Never remember there is a basic javascript requirement for this course so nothing here should look too
+
+31
+00:01:59,120 --> 00:02:00,110
+foreign to you.
+
+32
+00:02:00,110 --> 00:02:04,330
+I'll be covering everything new and fresh inside of this course but the basics.
+
+33
+00:02:04,380 --> 00:02:09,400
+Creating variables calling functions those should be something you're already familiar with.
+
+34
+00:02:09,440 --> 00:02:13,700
+Now that we have our out Jeff's file the only thing left to do is run it and we're going to do that
+
+35
+00:02:13,760 --> 00:02:15,410
+over in the terminal.
+
+36
+00:02:15,410 --> 00:02:19,860
+Now to run this program we have to navigate into our project folder.
+
+37
+00:02:20,270 --> 00:02:23,450
+If you're not familiar with the terminal I'll give you a quick refresher.
+
+38
+00:02:23,450 --> 00:02:30,650
+You can always figure out where you are using P.W. D on Linux or OSX or the dirty command on Windows
+
+39
+00:02:31,660 --> 00:02:34,200
+when you run it you're going to see something like this.
+
+40
+00:02:34,210 --> 00:02:39,770
+I'm in the Users folder and then I'm in my user folder and my user name happens to be Andrew.
+
+41
+00:02:39,850 --> 00:02:44,300
+When you open the terminal or the command prompt you're going to star in your user directory.
+
+42
+00:02:44,320 --> 00:02:49,620
+We can use C-D to navigate into the desktop.
+
+43
+00:02:49,870 --> 00:02:50,610
+And here we are.
+
+44
+00:02:50,710 --> 00:02:53,190
+Now we're sitting in the desktop.
+
+45
+00:02:53,210 --> 00:02:58,630
+The other command you can run from anywhere on your computer is forwards slash user's forwards slash
+
+46
+00:02:58,720 --> 00:03:01,450
+Andrew forward slash desktop.
+
+47
+00:03:01,460 --> 00:03:06,900
+This is going to navigate to your desktop no matter what folder you're located in the command up above
+
+48
+00:03:06,910 --> 00:03:11,590
+a CD desktop requires you to be in the user directory to work correctly.
+
+49
+00:03:11,620 --> 00:03:17,840
+Now that we're here though we can start by seeding into our project directory which we called Hello
+
+50
+00:03:17,940 --> 00:03:25,180
+hi hyphen world and once we're in here we can run in the ls command on Linux or Mac which is the dirk
+
+51
+00:03:25,180 --> 00:03:28,100
+command on windows to see all of our files.
+
+52
+00:03:28,220 --> 00:03:30,290
+And in this case we just have one we have app.
+
+53
+00:03:30,320 --> 00:03:30,770
+DOT.
+
+54
+00:03:30,820 --> 00:03:31,320
+J.S..
+
+55
+00:03:31,400 --> 00:03:33,930
+This is the file We're going to run.
+
+56
+00:03:34,280 --> 00:03:37,540
+Now before you do anything else make sure you see what I see here.
+
+57
+00:03:37,550 --> 00:03:40,830
+You should be in the hello world folder and you should have the app.
+
+58
+00:03:40,850 --> 00:03:42,220
+JS file inside.
+
+59
+00:03:42,230 --> 00:03:48,380
+If you do all we're going to do is run the node command followed by a space so we can pass in an argument
+
+60
+00:03:48,800 --> 00:03:51,940
+and that argument is going to be the file name app dot.
+
+61
+00:03:52,000 --> 00:03:58,550
+Yes once you have this in place you go ahead and hit enter and there we go hello world prints to the
+
+62
+00:03:58,550 --> 00:04:03,870
+screen and that is all it takes to create and run a very basic node application.
+
+63
+00:04:03,950 --> 00:04:09,020
+While our app doesn't do anything cool we're going to be using this process of creating folders files
+
+64
+00:04:09,020 --> 00:04:13,640
+and running them from the terminal throughout the course so it's a great start on our way to making
+
+65
+00:04:13,640 --> 00:04:15,480
+real world node apps.
+
+66
+00:04:15,520 --> 00:04:19,340
+That is it for this video and that is it for this section.
+
+67
+00:04:19,340 --> 00:04:24,890
+We took a look at what node is why it's cool and you created your very first application and the next
+
+68
+00:04:24,890 --> 00:04:27,670
+section we're going to dive in creating our first app.
+
+69
+00:04:27,770 --> 00:04:31,160
+I am super excited to start writing real world applications.
+
+70
+00:04:31,190 --> 00:04:32,240
+So stay tuned.
+
+71
+00:04:32,250 --> 00:04:33,840
+I will see you next time
+

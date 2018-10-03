@@ -1,0 +1,88 @@
+﻿1
+00:00:00,600 --> 00:00:03,540
+Welcome to the Course First up thanks for joining.
+
+2
+00:00:03,570 --> 00:00:07,000
+I am super excited to show you everything that Noad can do.
+
+3
+00:00:07,020 --> 00:00:12,690
+I packed this course with a ton of content projects challenges and real world examples all designed
+
+4
+00:00:12,690 --> 00:00:17,580
+to teach you know by doing this means you'll be getting your hands dirty early on in the next section.
+
+5
+00:00:17,580 --> 00:00:22,110
+Writing some code and you're going to be writing code for every project this is not one of those copy
+
+6
+00:00:22,110 --> 00:00:26,910
+and paste courses you'll be writing every line of code that powers our applications.
+
+7
+00:00:26,910 --> 00:00:31,440
+Now all of these projects are a ton of fun to build and they were designed to teach you everything required
+
+8
+00:00:31,440 --> 00:00:36,690
+to launch your own node app from planning to development and testing to deploying.
+
+9
+00:00:36,750 --> 00:00:40,830
+Now as you do launch these applications and move through the course you are going to run into errors.
+
+10
+00:00:40,830 --> 00:00:42,320
+It's just going to happen.
+
+11
+00:00:42,390 --> 00:00:44,520
+Maybe something doesn't install as expected.
+
+12
+00:00:44,520 --> 00:00:49,440
+Or maybe you try to run an app and instead of getting the expected output you get a really long obscure
+
+13
+00:00:49,440 --> 00:00:50,100
+error message.
+
+14
+00:00:50,100 --> 00:00:52,260
+Either way I am here to help.
+
+15
+00:00:52,350 --> 00:00:55,730
+At the bottom of every video you can find a link called Q&amp;A.
+
+16
+00:00:55,740 --> 00:00:59,010
+This is going to link you to the Q and A section for that video.
+
+17
+00:00:59,010 --> 00:01:04,220
+You'll be able to find other questions asked by other students and you'll be able to ask your own question.
+
+18
+00:01:04,260 --> 00:01:07,610
+So if you get stuck post there and I'll get back to you right away.
+
+19
+00:01:07,770 --> 00:01:10,300
+Let's go ahead and dive into the first section.
+
+20
+00:01:10,380 --> 00:01:14,470
+Well you'll learn what note is why it's useful and you're going to write your first app.
+
+21
+00:01:14,520 --> 00:01:15,350
+That's coming up next.
+
+22
+00:01:15,360 --> 00:01:16,350
+So let's get to it.
+

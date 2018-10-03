@@ -1,0 +1,184 @@
+﻿1
+00:00:00,880 --> 00:00:06,340
+In this video I want to take a quick moment to give you a tour of the various text editors you can use
+
+2
+00:00:06,400 --> 00:00:07,690
+for this course.
+
+3
+00:00:07,780 --> 00:00:13,270
+If you already have one you love using you can stop watching now because you can keep using the one
+
+4
+00:00:13,270 --> 00:00:13,680
+you have.
+
+5
+00:00:13,680 --> 00:00:17,560
+There's no need to switch editors to get anything done in this course.
+
+6
+00:00:17,560 --> 00:00:22,240
+Now if you don't have one and you're looking for a few options I always recommend using Adam which you
+
+7
+00:00:22,240 --> 00:00:28,030
+can find that Adam and I know it's free open source and it's available on all operating systems.
+
+8
+00:00:28,030 --> 00:00:30,680
+Linux OSX and Windows.
+
+9
+00:00:30,940 --> 00:00:35,350
+It's created by the folks behind get hub and it's the editor that I'm going to be using inside of this
+
+10
+00:00:35,350 --> 00:00:36,170
+course.
+
+11
+00:00:36,230 --> 00:00:39,190
+There's an awesome community of theme and plug in developers.
+
+12
+00:00:39,190 --> 00:00:42,120
+So you really can customize it to your liking.
+
+13
+00:00:42,130 --> 00:00:44,860
+Now aside from Adam there are a few other options.
+
+14
+00:00:44,860 --> 00:00:49,900
+I've heard a lot of people talking about Visual Studio code and they've been wondering why I don't use
+
+15
+00:00:49,900 --> 00:00:55,060
+in my courses I don't have any hands on experience with it but it does look pretty appealing at first
+
+16
+00:00:55,060 --> 00:00:55,820
+glance.
+
+17
+00:00:55,870 --> 00:01:00,670
+It is also open source free and it's available on all operating systems.
+
+18
+00:01:00,730 --> 00:01:05,290
+If you don't like Adam I highly recommend checking this out because I've heard so many good things via
+
+19
+00:01:05,290 --> 00:01:06,820
+word of mouth.
+
+20
+00:01:06,820 --> 00:01:12,550
+Next up we always have Sublime Text which you can find out sublime at text dot com.
+
+21
+00:01:12,550 --> 00:01:18,160
+Now Sublime Text is not free and it's not open source but it's a text editor that a lot of folks do
+
+22
+00:01:18,160 --> 00:01:19,260
+enjoy using.
+
+23
+00:01:19,270 --> 00:01:22,220
+I prefer Adam because it's very similar to sublime tax.
+
+24
+00:01:22,240 --> 00:01:24,680
+Though I find it snappier and easier to use.
+
+25
+00:01:24,700 --> 00:01:27,270
+Plus it's free and open source.
+
+26
+00:01:27,310 --> 00:01:32,350
+Now if you are looking for a more premium editor with all of the bells and whistles in ID as opposed
+
+27
+00:01:32,350 --> 00:01:38,260
+to a text editor I always recommend jet brains none of their products are free though they do come with
+
+28
+00:01:38,260 --> 00:01:42,310
+a 30 day free trial but they really are the best tools of the trade.
+
+29
+00:01:42,340 --> 00:01:47,320
+Do you find yourself in a corporate setting or you're out of a job where the company is willing to pay
+
+30
+00:01:47,380 --> 00:01:48,410
+for a editor.
+
+31
+00:01:48,490 --> 00:01:53,290
+I always recommend going with Jepp Raines all of their editors come with all of the tools you'd expect
+
+32
+00:01:53,560 --> 00:01:58,150
+like version control integration debugging tools and deploying tools built in.
+
+33
+00:01:58,150 --> 00:02:02,770
+Now it's definitely overkill for this course but I wanted to make you aware that they exist so down
+
+34
+00:02:02,770 --> 00:02:05,160
+the line you always have that choice.
+
+35
+00:02:05,170 --> 00:02:08,070
+As I said before in this course I'm going to be using atom.
+
+36
+00:02:08,110 --> 00:02:09,280
+I highly recommend it.
+
+37
+00:02:09,280 --> 00:02:12,150
+It has everything we need to create node apps.
+
+38
+00:02:12,280 --> 00:02:14,980
+So take a moment download the one you want to use.
+
+39
+00:02:14,980 --> 00:02:15,960
+Play around with it.
+
+40
+00:02:16,000 --> 00:02:17,140
+Make sure it fits your needs.
+
+41
+00:02:17,140 --> 00:02:18,820
+If not try another one.
+
+42
+00:02:18,820 --> 00:02:23,290
+When you're happy with one you can move on to the next video where we're going to create our very first
+
+43
+00:02:23,350 --> 00:02:24,340
+node application.
+
+44
+00:02:24,340 --> 00:02:26,630
+A really simple hello world example.
+
+45
+00:02:26,650 --> 00:02:27,850
+So stay tuned.
+
+46
+00:02:27,850 --> 00:02:29,650
+I will see you next time.
+

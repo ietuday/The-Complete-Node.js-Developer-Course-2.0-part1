@@ -1,0 +1,300 @@
+﻿1
+00:00:00,510 --> 00:00:03,950
+It before we started talking about what note is and why it's useful.
+
+2
+00:00:03,960 --> 00:00:05,880
+Which I'm sure you are wondering.
+
+3
+00:00:05,890 --> 00:00:10,890
+We're going to go ahead and install node on your machine because in the next couple of videos as I aim
+
+4
+00:00:10,890 --> 00:00:17,340
+to answer those questions we're going to want to run a little bit of node code now to get started in
+
+5
+00:00:17,340 --> 00:00:20,160
+this video we just need two programs a browser.
+
+6
+00:00:20,250 --> 00:00:24,020
+I'm going to be using Chrome throughout the course but any browser will do.
+
+7
+00:00:24,090 --> 00:00:31,680
+And in the terminal sometimes known as the command line on Linux or the command prompt on Windows.
+
+8
+00:00:31,680 --> 00:00:34,050
+Let's go ahead and open that up right now.
+
+9
+00:00:34,380 --> 00:00:40,930
+I'm going to use Spotlight to open up the terminal which is what it's known as on my operating system.
+
+10
+00:00:41,160 --> 00:00:45,800
+If you're on Windows look for something like the command prompt you can search using the Windows key
+
+11
+00:00:45,810 --> 00:00:47,070
+and then by typing.
+
+12
+00:00:47,160 --> 00:00:50,420
+And on Linux you're looking for something called the command line.
+
+13
+00:00:50,610 --> 00:00:55,830
+Although depending on your distribution it might be called the terminal or command prompt.
+
+14
+00:00:55,830 --> 00:00:59,620
+Now once you have that program open you're going to see something a little daunting.
+
+15
+00:00:59,670 --> 00:01:00,550
+It's a screen.
+
+16
+00:01:00,570 --> 00:01:04,210
+Yours probably has a black background with white text.
+
+17
+00:01:04,350 --> 00:01:07,950
+And essentially it's waiting for you to run a command.
+
+18
+00:01:07,950 --> 00:01:12,180
+We're going to be running quite a few commands from the terminal throughout the course and then around
+
+19
+00:01:12,180 --> 00:01:13,460
+four or five videos.
+
+20
+00:01:13,470 --> 00:01:15,170
+I'm going to give you a crash course.
+
+21
+00:01:15,180 --> 00:01:19,370
+So if you've never used this before you can start navigating comfortably.
+
+22
+00:01:19,620 --> 00:01:22,600
+But for now you don't need to worry about any of that.
+
+23
+00:01:22,680 --> 00:01:26,160
+We're not going to run any commands for the moment in the browser.
+
+24
+00:01:26,160 --> 00:01:33,830
+We can head over to node j ass dot org to grab the installer for the latest version of Node.
+
+25
+00:01:33,960 --> 00:01:36,570
+Hey this is Andrew from the future with a quick update.
+
+26
+00:01:36,660 --> 00:01:42,990
+As you saw on the previous screen when this course was first created node version 6 was the latest version
+
+27
+00:01:42,990 --> 00:01:44,140
+of node available.
+
+28
+00:01:44,220 --> 00:01:47,280
+As you can clearly see these days that's no longer the case.
+
+29
+00:01:47,310 --> 00:01:50,140
+The latest version now is version 10.
+
+30
+00:01:50,430 --> 00:01:55,560
+I've updated the course to support version 10 and you're going to have to actually install the 10 of
+
+31
+00:01:55,560 --> 00:02:01,170
+node or greater in order to work through the entire class as new node versions come out.
+
+32
+00:02:01,170 --> 00:02:05,970
+New features are added to the language and if you're using an older version of node you're not going
+
+33
+00:02:05,970 --> 00:02:11,450
+to be able to work through the class since it was updated to cover these awesome new features.
+
+34
+00:02:11,640 --> 00:02:19,290
+So long story short make sure you are using node the 10 as seen here or greater if you are going to
+
+35
+00:02:19,290 --> 00:02:22,770
+be able to move through the entire class with no problems.
+
+36
+00:02:22,770 --> 00:02:25,160
+All right that's it for this little interruption.
+
+37
+00:02:25,290 --> 00:02:28,910
+Let's get back to the regular video for now though.
+
+38
+00:02:28,960 --> 00:02:31,030
+All we have to do is click this button.
+
+39
+00:02:31,030 --> 00:02:36,100
+It downloads the installer and the installer is one of those basic click Next a few times and you're
+
+40
+00:02:36,100 --> 00:02:36,560
+done.
+
+41
+00:02:36,580 --> 00:02:40,570
+Type of installers there's no need to run any fancy commands.
+
+42
+00:02:40,630 --> 00:02:43,970
+I'm going to go ahead and start the installer here.
+
+43
+00:02:44,010 --> 00:02:45,930
+It's just going to ask me a few questions.
+
+44
+00:02:45,940 --> 00:02:50,160
+Go ahead and click next or continue through all of them.
+
+45
+00:02:50,230 --> 00:02:56,290
+You might want to specify a custom destination but if you don't know what that means and you don't usually
+
+46
+00:02:56,290 --> 00:03:02,240
+do it when installing programs that go ahead and skip that step to here I can see I'm using just 47
+
+47
+00:03:02,260 --> 00:03:02,850
+megabytes.
+
+48
+00:03:02,860 --> 00:03:04,100
+No problem.
+
+49
+00:03:04,180 --> 00:03:09,820
+I'm going to go ahead and run in the installer by entering my password and once I enter my password
+
+50
+00:03:09,970 --> 00:03:13,520
+it should really only take a couple of seconds to get node installed.
+
+51
+00:03:13,540 --> 00:03:14,380
+And here you go.
+
+52
+00:03:14,470 --> 00:03:19,920
+We have a message that says the installation was completed successfully which means we are good to go.
+
+53
+00:03:20,000 --> 00:03:26,140
+And now that node has been installed successfully we can go ahead and verify that by running it from
+
+54
+00:03:26,140 --> 00:03:28,580
+the terminal over inside of the terminal.
+
+55
+00:03:28,600 --> 00:03:36,040
+I'm going to actually shut it down by going to quit terminal and open it up again.
+
+56
+00:03:36,390 --> 00:03:42,270
+The reason I'm opening it up is because we've installed a new command and some terminals require a restart
+
+57
+00:03:42,300 --> 00:03:45,030
+before it's going to be able to run that new command.
+
+58
+00:03:45,120 --> 00:03:48,730
+In our case we've restarted things and we can run our brand new command.
+
+59
+00:03:48,780 --> 00:03:57,120
+We're going to type it out just like this node space hyphen the what we're doing here is we're running
+
+60
+00:03:57,120 --> 00:04:00,850
+the node command and we're passing it what's called a flag.
+
+61
+00:04:00,870 --> 00:04:07,650
+This is a hyphen sign followed by a letter could be a it could be J or in our case it's v.
+
+62
+00:04:07,680 --> 00:04:11,370
+This is going to print the version of node currently installed.
+
+63
+00:04:11,400 --> 00:04:12,590
+We might get an error.
+
+64
+00:04:13,510 --> 00:04:19,180
+Like this if you try to run a command that doesn't exist like A.D SDF you'll see.
+
+65
+00:04:19,180 --> 00:04:20,650
+Command not found.
+
+66
+00:04:20,650 --> 00:04:25,750
+If you see that it usually means the node installer didn't work correctly or you haven't ran it in the
+
+67
+00:04:25,750 --> 00:04:27,040
+first place.
+
+68
+00:04:27,070 --> 00:04:33,070
+In our case though a running node with the the flag should result in a number in our case it's version
+
+69
+00:04:33,130 --> 00:04:35,190
+six point two point two.
+
+70
+00:04:35,200 --> 00:04:39,390
+Once again make sure that you have a V-6 version of node installed.
+
+71
+00:04:39,490 --> 00:04:44,920
+Otherwise a lot of the videos throughout the course just aren't going to work if you do have node installed
+
+72
+00:04:45,160 --> 00:04:48,550
+and you're seeing something like what I see here then you are done.
+
+73
+00:04:48,580 --> 00:04:53,110
+I'll see you next time where we start exploring exactly what node is.
+
+74
+00:04:53,110 --> 00:04:53,880
+Stay tuned.
+
+75
+00:04:53,950 --> 00:04:55,510
+I will see you then.
+
